@@ -196,7 +196,7 @@
                                     các cửa hàng của chúng tôi</h2>
                                 <div class="wpb_text_column wpb_content_element  vc_custom_1500898003194">
                                     <div class="wpb_wrapper">
-                                        <p class="lead">Trường Shop là một cửa hàng chuyên bán lẻ và bán buôn các thiết
+                                        <p class="lead"><strong>One Slogan</strong> là một cửa hàng chuyên bán lẻ và bán buôn các thiết
                                             bị thông minh, điện tử, thông minh mới nhất.
                                         </p>
 

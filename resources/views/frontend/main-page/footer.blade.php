@@ -6,8 +6,11 @@
                     <div class="col-md-3 ">
                         <div id="text-2" class="verso-widget widget widget_text">
                             <h4 class="h3 verso-widget-header">VỀ CHÚNG TÔI</h4>
-                            <div class="textwidget">
-                                <p>Trường`Shop chuyên bán lẻ và bán buôn các thiết bị công nghệ tiên tiến mới nhất.</p>
+                            <div class="textwidget" style="    margin-top: -25px;">
+                                <a href="/" class="verso-customizer-menu-logo-text">
+                                    <img src="{{asset('images/iphoneX/logo-1.png')}}" alt="Verso - E-Commerce 2018">
+                                   </a>
+                                <p>One Slogan chuyên bán lẻ và bán buôn các thiết bị công nghệ tiên tiến mới nhất.</p>
                                 <p>Mục đích chính của chúng tôi là cung cấp các sản phẩm và dịch vụ thu hút tất cả những
                                     người yêu thích tiện ích.</p>
                             </div>
@@ -22,11 +25,12 @@
                                     <a href="{{route('detail_shop',$item_show_list->slug)}}">
                                         <img src="{{asset('storage/'.$item_show_list->image)}}"
                                             class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
-                                            alt=""
-                                            sizes="(max-width: 600px) 100vw, 600px" /> <span class="product-title">{{$item_show_list->title}}</span>
+                                            alt="" sizes="(max-width: 600px) 100vw, 600px" /> <span
+                                            class="product-title">{{$item_show_list->title}}</span>
                                     </a>
                                     <span class="woocommerce-Price-amount amount"><span
-                                            class="woocommerce-Price-currencySymbol"></span>{{number_format($item_show_list->price)}} VND</span>
+                                            class="woocommerce-Price-currencySymbol"></span>{{number_format($item_show_list->price)}}
+                                        VND</span>
                                 </li>
                                 @endforeach
                             </ul>
@@ -37,18 +41,14 @@
                             class="verso-widget widget woocommerce widget_product_categories">
                             <h4 class="h3 verso-widget-header">Danh mục sản phẩm</h4>
                             <ul class="product-categories">
-                            <li class="cat-item cat-item-41"><a
-                                        href="">Iphone 6</a> <span
-                                        class="count">(10)</span></li>
-                                <li class="cat-item cat-item-35"><a
-                                        href="">Iphone 7</a> <span
-                                        class="count">(10)</span></li>
-                                <li class="cat-item cat-item-28"><a
-                                        href="">Iphone 8</a> <span
-                                        class="count">(10)</span></li>
-                                <li class="cat-item cat-item-39"><a
-                                        href="">Iphone X</a> <span
-                                        class="count">(10)</span></li>
+                                <li class="cat-item cat-item-41"><a href="">Iphone 6</a> <span class="count">(10)</span>
+                                </li>
+                                <li class="cat-item cat-item-35"><a href="">Iphone 7</a> <span class="count">(10)</span>
+                                </li>
+                                <li class="cat-item cat-item-28"><a href="">Iphone 8</a> <span class="count">(10)</span>
+                                </li>
+                                <li class="cat-item cat-item-39"><a href="">Iphone X</a> <span class="count">(10)</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -92,24 +92,15 @@
                     <div class="col-sm-6">
                         <div id="text-4" class="verso-widget widget widget_text">
                             <div class="textwidget">
-                                <p>Trường`Shop Theme. © Oxygenna 2017</p>
+                                <p>One Slogan Theme. © Oxygenna 2017</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div id="versosocialwidget-4" class="verso-widget widget widget_social">
                             <div class="verso-icon-set">
-                                <a target="_blank" href="#" class="verso-icon-set-item verso-transition">
-                                    <i class="fa fa-pinterest"></i>
-                                </a>
-                                <a target="_blank" href="#" class="verso-icon-set-item verso-transition">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <a target="_blank" href="#" class="verso-icon-set-item verso-transition">
+                                <a target="_blank" href="https://www.facebook.com/Tr%C6%B0%E1%BB%9Dng-IPHONE-181516395776407/?modal=admin_todo_tour" class="verso-icon-set-item verso-transition">
                                     <i class="fa fa-facebook"></i>
-                                </a>
-                                <a target="_blank" href="#" class="verso-icon-set-item verso-transition">
-                                    <i class="fa fa-twitter"></i>
                                 </a>
                             </div>
                         </div>
