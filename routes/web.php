@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +21,8 @@ Route::prefix('/')->group(function () {
     Route::get('/detail-cart','Frontend\\PagesController@getDetailCart')->name('detail_cart');
     Route::get('/gio-hang-update','Frontend\\PagesController@postSessionCart')->name('update_giohang');
     Route::get('/thanh-toan','Frontend\\PagesController@getClientInfo')->name('client_info');
+    Route::post('/thanh-toan','Frontend\\PagesController@postClientInfo')->name('client_info');
+    Route::get('/thanh-toan-thanh-cong','Frontend\\PagesController@getSuccess')->name('success');
     // Về chung tôi
     Route::get('/about','Frontend\\PagesController@getAboutUs')->name('about_us');
     // Tin tức
