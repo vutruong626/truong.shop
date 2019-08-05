@@ -92,7 +92,7 @@
                     <div class="col-sm-6">
                         <div id="text-4" class="verso-widget widget widget_text">
                             <div class="textwidget">
-                                <p>One Slogan Theme. © Oxygenna 2017</p>
+                                <p>One Slogan Theme. © Oxygenna 2019</p>
                             </div>
                         </div>
                     </div>

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trường Shop</title>
+    <title>One Slogan</title>
+    <meta property="og:locale" content="Việt Nam" />
+    <meta property="og:type" content="Hệ thống chuyên cung cấp các mặt hàng Apple hãy cùng One Slogan" />
+    <meta property="og:title" content="Hệ thống chuyên cung cấp các mặt hàng Apple hãy cùng One Slogan" />
+    <meta property="og:description"
+        content="Hệ thống chuyên cung cấp các mặt hàng Apple hãy cùng One Slogan - Trải nghiệm công nghê 4.0 cùng với Apple" />
+    <meta property="og:site_name" content="SmartBus" />
     <style type="text/css">
     .verso-footer>.upper-footer {
         padding-top: 90px;
@@ -31,8 +36,6 @@
     }
     </style>
 
-    <link rel="alternate" type="application/rss+xml" title="Verso - E-Commerce 2018 &raquo; Comments Feed"
-        href="comments/feed/index.html" />
     <script type="text/javascript">
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/",
@@ -158,12 +161,12 @@
     </noscript>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://verso.oxygenna.com/commerce-modern/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
-    <link rel="icon" href="{{asset('css/vt-csk/uploads/sites/15/2017/09/cropped-logo-commerce-150x150.png')}}"
+    <link rel="icon" href="{{asset('images/iphoneX/logo-vt3.png')}}"
         sizes="32x32" />
-    <link rel="icon" href="{{asset('css/vt-csk/uploads/sites/15/2017/09/cropped-logo-commerce-300x300.png')}}"
+    <link rel="icon" href="{{asset('images/iphoneX/logo-vt3.png')}}"
         sizes="192x192" />
     <link rel="apple-touch-icon-precomposed"
-        href="{{asset('css/vt-csk/uploads/sites/15/2017/09/cropped-logo-commerce-180x180.png')}}" />
+        href="{{asset('images/iphoneX/logo-vt3.png')}}" />
     <!-- <meta name="msapplication-TileImage"
         content="https://verso.oxygenna.com/commerce-modern/wp-content/uploads/sites/15/2017/09/cropped-logo-commerce-300x300.png" /> -->
     <style type="text/css" id="wp-custom-css">

@@ -27,7 +27,7 @@
         <div class="verso-nav-inner">
             <div class="verso-nav-container verso-customizer-menu-layout">
                 <div class="verso-nav-brand">
-                    <a href="/" class="verso-customizer-menu-logo-text">
+                    <a href="/" class="verso-customizer-menu-logo-text" title="One Slogan">
                         <img src="{{asset('images/iphoneX/logo-vt3.png')}}"
                             alt="Verso - E-Commerce 2018">
                         One Slogan </a>
@@ -49,15 +49,15 @@
                         </li>
                         <li id="menu-item-124"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-124 dropdown {{Request::is('about') ? 'active' : ' '}}">
-                            <a title="About Us" href="{{route('about_us')}}">VỀ CHÚNG TÔI</a>
+                            <a title="VỀ CHÚNG TÔI" href="{{route('about_us')}}">VỀ CHÚNG TÔI</a>
                         </li>
                         <li id="menu-item-128"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-128 dropdown {{Request::is('tin-tuc') ? 'active' : ' '}}">
-                            <a title="Blog" href="{{route('news')}}">TIN TỨC</a>
+                            <a title="TIN TỨC" href="{{route('news')}}">TIN TỨC</a>
                         </li>
                         <li id="menu-item-133"
                             class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-133 {{Request::is('lien-he') ? 'active' : ' '}}">
-                            <a title="Contact" href="{{route('contact')}}">LIÊN HỆ</a></li>
+                            <a title="LIÊN HỆ" href="{{route('contact')}}">LIÊN HỆ</a></li>
 
                         <!-- <li id="verso-menu-cart-item" class="menu-item menu-item-cart nav-item ">
                             <a href="cart/index.html">

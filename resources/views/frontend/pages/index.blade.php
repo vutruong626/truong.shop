@@ -13,7 +13,7 @@
                                     class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_slideInUp slideInUp vc_custom_1500972730557">
 
                                     <figure class="wpb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="650"
+                                        <div class="vc_single_image-wrapper   vc_box_border_grey" title="iPhone Xs Max 512GB"><img width="650"
                                                 height="650" src="{{asset('images/iphoneX/hero-iphone@2x.png')}}"
                                                 class="vc_single_image-img attachment-full" alt=""
                                                 sizes="(max-width: 650px) 100vw, 650px" style="margin-left: 30px;" />
@@ -96,7 +96,7 @@
                                     class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_slideInUp slideInUp">
 
                                     <figure class="wpb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="650"
+                                        <div class="vc_single_image-wrapper   vc_box_border_grey" title="iPhone Xs Max 512GB"><img width="650"
                                                 height="650" src="{{asset('images/iphoneX/hero-iphone@2x.png')}}"
                                                 class="vc_single_image-img attachment-full" alt=""
                                                 sizes="(max-width: 650px) 100vw, 650px" /></div>
